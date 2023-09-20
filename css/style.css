@@ -13,17 +13,62 @@ img {
     max-width: 100%;
 }
 
-/* MAIN */
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
 
 .container {
     width: 80%;
     margin: 0 auto;
-    margin-top: 2rem;
+    max-width: 1000px;
 }
+
+/* HEADER */
+
+header {
+    height: 5rem;
+    background-color: #ff6900;
+    display: flex;
+    color: white;
+    font-size: 1.2em;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-links ul {
+    list-style-type: none;
+    display: flex;
+    gap: .5rem;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.logo {
+    width: 15%;
+    vertical-align: middle;
+
+}
+
+.login ul {
+    list-style-type: none;
+    text-align: right;
+    display: flex;
+    vertical-align: middle;
+    gap: .5rem;
+}
+
+/* MAIN */
 
 .row {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 2rem;
 }
 
 .col {
