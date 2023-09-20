@@ -123,12 +123,10 @@ header {
 
 .new-price {
     color: red;
-    /* font-size: .9em; */
 }
 
 .old-price {
     text-decoration: line-through;
-    /* font-size: .9em; */
 }
 
 .heart {
@@ -174,10 +172,6 @@ header {
     color: white;
 }
 
-h3 {
-    /* display: inline-block; */
-}
-
 .footer-links ul {
     display: flex;
     text-align: right;
@@ -189,9 +183,6 @@ h3 {
 .contatti {
     display: inline-block;
     text-align: right;
-    /* justify-content: flex-end; */
-    /* align-self: flex-start; */
-    /* flex-wrap: wrap; */
 }
 
 .social {
