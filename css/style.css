@@ -16,6 +16,7 @@ img {
 a {
     color: inherit;
     text-decoration: inherit;
+    text-align: inherit;
 }
 
 .container {
@@ -162,3 +163,44 @@ header {
     color: white;
     font-size: .9em;
 }
+
+/* FOOTER */
+
+.footer {
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    color: white;
+}
+
+h3 {
+    /* display: inline-block; */
+}
+
+.footer-links ul {
+    display: flex;
+    text-align: right;
+    gap: 0.8rem;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.contatti {
+    display: inline-block;
+    text-align: right;
+    /* justify-content: flex-end; */
+    /* align-self: flex-start; */
+    /* flex-wrap: wrap; */
+}
+
+.social {
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
