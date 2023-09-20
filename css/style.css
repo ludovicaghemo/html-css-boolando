@@ -5,9 +5,13 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 img {
     max-width: 100%;
-    padding: 2rem .5rem;
+    /* padding: 2rem .5rem; */
 }
 
 /* MAIN */
@@ -27,6 +31,12 @@ img {
     width: calc(95% / 3);
 }
 
+.card {
+    position: relative;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
 .first {
     display: block;
 }
@@ -43,3 +53,35 @@ img {
     display: block;
 }
 
+.lables {
+    display: inline-block;
+    position: absolute;
+    bottom: 135px;
+    left: 0;
+    color: white;
+    font-size: .9em;
+}
+
+.discount {
+    background-color: red;
+    padding: .2rem .5rem;
+}
+
+.sustain {
+    background-color: green;
+    padding: .2rem .5rem;
+}
+
+.caption {
+    font-size: .9em;
+}
+
+.new-price {
+    color: red;
+    /* font-size: .9em; */
+}
+
+.old-price {
+    text-decoration: line-through;
+    /* font-size: .9em; */
+}
