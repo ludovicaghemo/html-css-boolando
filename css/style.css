@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
+
 body {
     font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -68,6 +70,7 @@ header {
 
 .row {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 2rem;
 }
@@ -132,8 +135,7 @@ header {
 .heart {
     position: absolute;
     top: 3%;
-    right: 15%;
-    z-index: 1;
+    right: 17%;
 }
 
 .black-heart {
